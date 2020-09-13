@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);
+  }
+  .container {
+    width: 1200px;
+    height: 620px;
+    margin: 100px auto;
+    background-color: #f0f1f6;
+    border-radius: 15px;
+    box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.7);
+    position: relative;
+  }
+  .adauga {
+    width: 350px;
+    height: 620px;
+    position: absolute;
+    border-radius: 0 15px 15px 0;
+    right: 0;
+    bottom: 0;
+    background-image: linear-gradient(
+      to top,
+      #dad4ec 0%,
+      #dad4ec 1%,
+      #f3e7e9 100%
+    );
+  }
+  
+  .title1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    font-family: "Roboto", sans-serif;
+    color: #881482;
+  }
+  
+  .text1 {
+    height: 30px;
+    width: 300px;
+    margin: 10px;
+    border: 0;
+    border-radius: 5px;
+  }
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+    border: 0;
+    position: absolute;
+    left: 150px;
+    margin-top: 20px;
+  }
+  
+  .container2 {
+    width: 350px;
+    height: 620px;
+    position: absolute;
+    border-radius: 15px 0 0 15px;
+    left: 0;
+    bottom: 0;
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+  }
+  .container3 {
+    width: 500px;
+    height: 620px;
+    position: absolute;
+    bottom: 0;
+    right: 350px;
+  }
+  .balance1 {
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+  }
+  
+  .value {
+    font-size: 3rem;
+  }
+  
+  .balance3 {
+    display: block;
+    display: inline-block;
+    color: red;
+  }
+  
+  .toggle {
+    display: block;
+    margin-top: 30px;
+    margin-left: 50px;
+  }
+  .toggle .tab1,
+  .tab2,
+  .tab3 {
+    display: inline-block;
+    margin-top:0;
+    padding: 35px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #1a0034;
+    opacity: 0.4;
+  }
+  
+  .dashboard1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+    font-family: "Roboto", sans-serif;
+  }
+  
